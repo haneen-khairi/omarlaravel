@@ -21,3 +21,15 @@ Route::get('/', function () {
 Route::get('/contact-us', function () {
     return view('contact');
 });
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/blog-post', function () {
+    return view('blog-post');
+});
+Route::get('/acid', function () {
+    return view('acid');
+});
+Route::get('/toxic', function () {
+    return view('toxic');
+});

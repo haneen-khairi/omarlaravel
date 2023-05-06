@@ -9,55 +9,56 @@
             </div>
             <nav class="item-nav">
                 <ul class="item-menu">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"
+                        data-stagger-item>
+                        <a class="d-b" href="{{ url('/') }}">Home</a>
+                    </li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63 menu-item-has-children"
                         data-stagger-item>
-                        <a class="item-link item-link--1 link preventDefault" target="_blank" href="{{ url('/') }}">Home
-                            Page</a>
+                        <a class="d-b" href="">Medicine</a>
                         <ul class="sub-menu">
                             <li
                                 class="sub-menu-item item-link--2 menu-item menu-item-type-post_type menu-item-object-page menu-item-141">
-                                <a class="link" target="_blank" href="#">Hyaluronic acid</a>
+                                <a class="d-b" href="{{ url('/acid') }}">Hyaluronic acid</a>
                             </li>
                             <li
                                 class="sub-menu-item item-link--2 menu-item menu-item-type-post_type menu-item-object-page menu-item-142">
-                                <a class="link" target="_blank" href="#">Botulinum toxin</a>
+                                <a class="d-b" href="{{ url('/toxic') }}">Botulinum toxin</a>
                             </li>
                             <li
                                 class="sub-menu-item item-link--2 menu-item menu-item-type-post_type menu-item-object-page menu-item-143">
-                                <a class="link" target="_blank" href="#">Mesotherapy</a>
+                                <a class="d-b" href="{{ url('/acid') }}">Mesotherapy</a>
                             </li>
                             <li
                                 class="sub-menu-item item-link--2 menu-item menu-item-type-post_type menu-item-object-page menu-item-144">
-                                <a class="link" target="_blank" href="#">Peeling</a>
+                                <a class="d-b" href="{{ url('/acid') }}">Peeling</a>
                             </li>
                         </ul>
                     </li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137 menu-item-has-children"
                         data-stagger-item>
-                        <a class="item-link item-link--1 link preventDefault" target="_blank" href="#">Lorem Lorem
-                            h2</a>
+                        <a class="d-b" href="">Aesthetic medicine </a>
                         <ul class="sub-menu">
                             <li
                                 class="sub-menu-item item-link--2 menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
-                                <a class="link" target="_blank" href="#">Corps</a>
+                                <a class="d-b" href="{{ url('/toxic') }}">Corps</a>
                             </li>
                             <li
                                 class="sub-menu-item item-link--2 menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
-                                <a class="link" target="_blank" href="#">Body</a>
+                                <a class="d-b" href="{{ url('/toxic') }}">Body</a>
                             </li>
                             <li
                                 class="sub-menu-item item-link--2 menu-item menu-item-type-post_type menu-item-object-page menu-item-140">
-                                <a class="link" target="_blank" href="#">Face</a>
+                                <a class="d-b" href="{{ url('/toxic') }}">Face</a>
                             </li>
                         </ul>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"
                         data-stagger-item>
-                        <a class="item-link item-link--1 link" target="_blank" href="#">News</a>
+                        <a class="d-b" href="{{ url('/blog') }}">Blogs</a>
                     </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"
-                        data-stagger-item>
-                        <a class="item-link item-link--1 link" target="_blank" href="{{ url('/contact-us') }}">Contact</a>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25" data-stagger-item>
+                        <a class="d-b" target="_blank" href="{{ url('/contact-us') }}">Contact</a>
                     </li>
                 </ul>
                 <div class="lang-container" data-stagger-item>
@@ -65,7 +66,7 @@
                         <span class="active menu-lang__current">AR</span>
                         <ul>
                             <li>
-                                <a class="menu-lang__item" target="_blank" href="#">en</a>
+                                <a class="menu-lang__item" href="#">en</a>
                             </li>
                         </ul>
                     </div>
@@ -84,53 +85,54 @@
     <div id="mobile-menu">
         <div class="item-container container md-up-ta-c">
             <ul>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684" data-stagger-item>
+                    <a class="d-b" href="{{ url('/') }}">Home</a>
+                </li>
                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63 menu-item-has-children"
                     data-stagger-item>
-                    <a class="item-link link preventDefault" target="_blank" href="{{ url('/') }}">Home Page</a>
+                    <a class="d-b" href="">Medicine</a>
                     <ul class="nav-drop">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141">
-                            <a class="link" target="_blank" href="#">Hyaluronic acid</a>
+                            <a class="d-b" href="{{ url('/acid') }}">Hyaluronic acid</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142">
-                            <a class="link" target="_blank" href="#">Botulinum toxin</a>
+                            <a class="d-b" href="{{ url('/acid') }}">Botulinum toxin</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143">
-                            <a class="link" target="_blank" href="#">Mesotherapy</a>
+                            <a class="d-b" href="{{ url('/acid') }}">Mesotherapy</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144">
-                            <a class="link" target="_blank" href="#">Peeling</a>
+                            <a class="d-b" href="{{ url('/acid') }}">Peeling</a>
                         </li>
                     </ul>
                 </li>
                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137 menu-item-has-children"
                     data-stagger-item>
-                    <a class="item-link link preventDefault" target="_blank" href="#">Lorem Lorem h2</a>
+                    <a class="d-b" href="">Aesthetic medicine </a>
                     <ul class="nav-drop">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
-                            <a class="link" target="_blank" href="#">Corps</a>
+                            <a class="d-b" href="{{ url('/toxic') }}">Corps</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
-                            <a class="link" target="_blank" href="#">Body</a>
+                            <a class="d-b" href="{{ url('/toxic') }}">Body</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140">
-                            <a class="link" target="_blank" href="#">Face</a>
+                            <a class="d-b" href="{{ url('/toxic') }}">Face</a>
                         </li>
                     </ul>
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"
-                    data-stagger-item>
-                    <a class="item-link link" target="_blank" href="#">News</a>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684" data-stagger-item>
+                    <a class="d-b" href="{{ url('/blog') }}">Blogs</a>
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"
-                    data-stagger-item>
-                    <a class="item-link link" target="_blank" target="_blank" href="{{ url('/contact-us') }}">Contact</a>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25" data-stagger-item>
+                    <a class="d-b" target="_blank" href="{{ url('/contact-us') }}">Contact</a>
                 </li>
                 <li class="lang-container" data-stagger-item>
                     <div class="menu-lang">
                         <span class="active menu-lang__current">AR</span>
                         <ul>
                             <li>
-                                <a class="menu-lang__item" target="_blank" href="#">en</a>
+                                <a class="menu-lang__item" href="#">en</a>
                             </li>
                         </ul>
                     </div>

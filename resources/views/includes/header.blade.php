@@ -33,6 +33,20 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+        *{
+            font-family: 'Philosopher', sans-serif!important;
+        }
+        .is_stuck.scrolling-up .logo-img {
+    width: 50px;
+    filter: drop-shadow(1px 0px 1.2px #000) contrast(1.5);
+}
+#header.is_stuck {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    </style>
 </head>
 
 <body
