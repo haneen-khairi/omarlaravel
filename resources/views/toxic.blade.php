@@ -7,8 +7,8 @@
             <main id="page-medecine" class="medecine">
                 <section class="medecine__hero c-white p-r hero o-h">
                     <div class="medecine__hero__bg hero__bg bg-img absolute-full" data-kira-item="parallaxTop"
-                        data-bg="https://www.trevidic.com/wp-content/uploads/2021/07/trevidic-news-video-1920x1006.jpg"
-                        data-bg-hidpi="https://www.trevidic.com/wp-content/uploads/2021/07/trevidic-news-video.jpg">
+                        data-bg="assets/img/trevidic-news-video-1920x1006.jpg"
+                        data-bg-hidpi="assets/img/trevidic-news-video-1920x1006.jpg">
                     </div>
                     <div class="medecine__hero__top hero__section hero__top d-f ai-center jc-center p-r ta-c"
                         data-kira-timeline="onload">
@@ -33,8 +33,8 @@
                                         <div data-kira-item="zoomOut">
                                             <div id="img-800907" class="lazy-image " style="padding-bottom:121%;">
                                                 <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1246 1408'%3E%3C/svg%3E"
-                                                    data-src="https://www.trevidic.com/wp-content/uploads/2021/09/Présentation-2-min-1246x1408.png"
-                                                    data-srcset="https://www.trevidic.com/wp-content/uploads/2021/09/Présentation-2-min-623x754.png 623w, https://www.trevidic.com/wp-content/uploads/2021/09/Présentation-2-min-1246x1408.png 1246w"
+                                                    data-src="assets/img/Présentation-2-min-1246x1408.png"
+                                                    data-srcset="assets/img/Présentation-2-min-1246x1408.png 623w, assets/img/Présentation-2-min-1246x1408.png 1246w"
                                                     sizes="(max-width: 639px) 623px, 1246px" width="1246"
                                                     height="1408" alt="" class="lazy-image__img">
                                             </div>
@@ -88,8 +88,8 @@
                                     <div data-kira-item="zoomOut">
                                         <div id="img-90876" class="lazy-image " style="padding-bottom:135%;">
                                             <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 812 1100'%3E%3C/svg%3E"
-                                                data-src="https://www.trevidic.com/wp-content/uploads/2021/08/trevidic-composition-top.jpg"
-                                                data-srcset="https://www.trevidic.com/wp-content/uploads/2021/08/trevidic-composition-top.jpg"
+                                                data-src="assets/img/trevidic-composition-top.jpg"
+                                                data-srcset="assets/img/trevidic-composition-top.jpg"
                                                 sizes="" width="812" height="1100" alt=""
                                                 class="lazy-image__img">
                                         </div>
@@ -162,7 +162,7 @@
                                                 <p>Liquide, la toxine botulique est injectée avec des aiguilles très
                                                     fines qui rendent cette procédure presque indolore. Cette procédure
                                                     dont la durée est de 15 à 30 minutes, est réalisée au cabinet
-                                                    médical du Dr Trevidic. Son résultat apparaît en 2 à 15 jours et
+                                                    médical du Dr Omar. Son résultat apparaît en 2 à 15 jours et
                                                     c’est pour cette raison qu’une visite de contrôle est prévue 3
                                                     semaines après l’injection. A l’occasion de cette visite de
                                                     contrôle, on peut procéder à une retouche si le résultat est

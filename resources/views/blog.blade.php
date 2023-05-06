@@ -82,8 +82,8 @@
                                             class="d-b" aria-label="LE SOURCIL">
                                             <div id="img-897815" class="lazy-image " style="padding-bottom:57%;">
                                                 <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5760 3840'%3E%3C/svg%3E"
-                                                    data-src="https://www.trevidic.com/wp-content/uploads/2022/02/iStock-810288082-812x462.jpg"
-                                                    data-srcset="https://www.trevidic.com/wp-content/uploads/2022/02/iStock-810288082-406x231.jpg 406w, https://www.trevidic.com/wp-content/uploads/2022/02/iStock-810288082-812x462.jpg 812w"
+                                                    data-src="assets/img/iStock-810288082-812x462.jpg"
+                                                    data-srcset="assets/img/iStock-810288082-812x462.jpg 406w, assets/img/iStock-810288082-812x462.jpg 812w"
                                                     sizes="(max-width: 639px) 406px, 812px" width="5760" height="3840"
                                                     alt="" class="lazy-image__img">
                                             </div>
@@ -120,8 +120,8 @@
                                             class="d-b" aria-label="LES PAUPIERES INFERIEURES">
                                             <div id="img-88976" class="lazy-image " style="padding-bottom:57%;">
                                                 <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6720 4480'%3E%3C/svg%3E"
-                                                    data-src="https://www.trevidic.com/wp-content/uploads/2022/02/iStock-1131796161-812x462.jpg"
-                                                    data-srcset="https://www.trevidic.com/wp-content/uploads/2022/02/iStock-1131796161-406x231.jpg 406w, https://www.trevidic.com/wp-content/uploads/2022/02/iStock-1131796161-812x462.jpg 812w"
+                                                    data-src="assets/img/2022/02/iStock-1131796161-812x462.jpg"
+                                                    data-srcset="assets/img/2022/02/iStock-1131796161-812x462.jpg 406w, assets/img/2022/02/iStock-1131796161-812x462.jpg 812w"
                                                     sizes="(max-width: 639px) 406px, 812px" width="6720" height="4480"
                                                     alt="" class="lazy-image__img">
                                             </div>
@@ -158,8 +158,8 @@
                                             aria-label="LE VENTRE FEMININ">
                                             <div id="img-179710" class="lazy-image " style="padding-bottom:57%;">
                                                 <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2848 4272'%3E%3C/svg%3E"
-                                                    data-src="https://www.trevidic.com/wp-content/uploads/2022/07/Ventre1-812x462.jpg"
-                                                    data-srcset="https://www.trevidic.com/wp-content/uploads/2022/07/Ventre1-406x231.jpg 406w, https://www.trevidic.com/wp-content/uploads/2022/07/Ventre1-812x462.jpg 812w"
+                                                    data-src="assets/img/Ventre1-812x462.jpg"
+                                                    data-srcset="assets/img/Ventre1-812x462.jpg 406w, assets/img/Ventre1-812x462.jpg 812w"
                                                     sizes="(max-width: 639px) 406px, 812px" width="2848" height="4272"
                                                     alt="" class="lazy-image__img">
                                             </div>
@@ -194,8 +194,8 @@
                                             aria-label="LA PERENNITE DU LIFTING">
                                             <div id="img-300178" class="lazy-image " style="padding-bottom:57%;">
                                                 <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5530 3296'%3E%3C/svg%3E"
-                                                    data-src="https://www.trevidic.com/wp-content/uploads/2022/07/Visage2-812x462.jpg"
-                                                    data-srcset="https://www.trevidic.com/wp-content/uploads/2022/07/Visage2-406x231.jpg 406w, https://www.trevidic.com/wp-content/uploads/2022/07/Visage2-812x462.jpg 812w"
+                                                    data-src="assets/img/Visage2-812x462.jpg"
+                                                    data-srcset="assets/img/Visage2-812x462.jpg 406w, assets/img/Visage2-812x462.jpg 812w"
                                                     sizes="(max-width: 639px) 406px, 812px" width="5530" height="3296"
                                                     alt="" class="lazy-image__img">
                                             </div>
