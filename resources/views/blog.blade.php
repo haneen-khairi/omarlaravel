@@ -41,11 +41,10 @@
                                         <div class="post-teaser__date title-xs">{{$singleItemBlog['published_at']}}</div>
                                     </div>
                                     <div class="col-md-13 col-lg-10 col-xl-8 mb-md md-up-mb-0">
-                                        <a href="{{ url('/blog-post') }}" class="d-b"
+                                        <a href="{{ url('/blog-post/' . $singleItemBlog['slug']) }}" class="d-b"
                                             aria-label="THE EYEBROW">
                                             <div id="img-173789" class="lazy-image " style="padding-bottom:57%;">
-                                                <img src="{{asset('storage/app/public/' . $singleItemBlog['banner'])}}"
-                                                    sizes="(max-width: 639px) 406px, 812px" width="920" height="1300"
+                                                <img src="{{ asset('storage/' . $singleItemBlog['banner']) }}"
                                                     alt="" class="lazy-image__img">
                                             </div>
                                         </a>
@@ -54,7 +53,7 @@
                                         class="post-teaser__metas col-md-11 col-lg-10 col-xl-8 offset-lg-1 d-f fd-column">
                                         <div class="post-teaser__metas__top">
                                             <h3 class="post-teaser__title title-md tt-u fw-300">
-                                                <a href="{{ url('/blog-post') }}"
+                                                <a href="{{ url('/blog-post/' . $singleItemBlog['slug']) }}"
                                                     class="d-b">{{$singleItemBlog['title']}}</a>
                                             </h3>
                                             <div class="post-teaser__date title-xs md-up-d-none mb-sm md-up-mb-0">
@@ -62,7 +61,7 @@
                                             <p class="post-teaser__excerpt mb-sm lg-up-mb-0"></p>
                                         </div>
                                         <div class="post-teaser__metas__bottom mb-0 mt-auto">
-                                            <a href="{{ url('/blog-post') }}"
+                                            <a href="{{ url('/blog-post/' . $singleItemBlog['slug']) }}"
                                                 class="btn">READ MORE</a>
                                         </div>
                                     </div>

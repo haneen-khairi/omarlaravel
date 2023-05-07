@@ -23,10 +23,8 @@ Route::get('/contact-us', function () {
 });
 
 Route::get('blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
+Route::get('/blog-post/{slug}', [App\Http\Controllers\BlogController::class, 'blog_post'])->name('blog-post');
 
-Route::get('/blog-post', function () {
-    return view('blog-post');
-});
 Route::get('/acid', function () {
     return view('acid');
 });

@@ -12,4 +12,12 @@ class BlogController extends Controller
         $blogModel = Blog::all();
         return view('blog', compact('blogModel'));
     }
+
+    public function blog_post($slug) {
+
+        $singleBlogPost = Blog::where('slug', $slug)->first();
+        $relatedBlogs = Blog::where('id', '!=', "$singleBlogPost->id")->get();
+
+        return view('blog-post', compact('singleBlogPost', 'relatedBlogs'));
+    }
 }
