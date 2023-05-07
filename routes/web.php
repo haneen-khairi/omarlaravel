@@ -13,17 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
- 
+
 Route::get('/', function () {
     return view('home');
 });
- 
+
 Route::get('/contact-us', function () {
     return view('contact');
 });
-Route::get('/blog', function () {
-    return view('blog');
-});
+
+Route::get('blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
+
 Route::get('/blog-post', function () {
     return view('blog-post');
 });
