@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/contact-us', function () {
     return view('contact');
-});
+})->name('contact-us');
 
 Route::get('blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
 Route::get('/blog-post/{slug}', [App\Http\Controllers\BlogController::class, 'blog_post'])->name('blog-post');

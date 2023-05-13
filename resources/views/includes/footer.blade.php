@@ -115,7 +115,7 @@
                                <li
                                   class="sub-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-128"
                                   >
-                                  <a href="contact-us.html">Contact</a>
+                                  <a href="{{ route('contact-us') }}">Contact</a>
                                </li>
                             </ul>
                          </li>
@@ -141,14 +141,14 @@
  </footer>
 </div>
 </div>
-<script src="assets/js/index.js?ver=5.7.2" id="swv" defer></script>
-<script src="assets/js/app2.js" defer></script>
+<script src="{{ asset('assets/js/index.js?ver=5.7.2') }}" id="swv" defer></script>
+<script src="{{ asset('assets/js/app2.js') }}" defer></script>
 <script
-src="assets/js/regenerator-runtime.min.js"
+src="{{ asset('assets/js/regenerator-runtime.min.js') }}"
 id="regenerator-runtime"
 defer
 ></script>
-<script src="assets/js/wp-polyfill.min.js" id="wp-polyfill" defer></script>
-<script src="assets/js/index2.js" id="wpcf7-recaptcha" defer></script>
+<script src="{{ asset('assets/js/wp-polyfill.min.js') }}" id="wp-polyfill" defer></script>
+<script src="{{ asset('assets/js/index2.js') }}" id="wpcf7-recaptcha" defer></script>
 </body>
 </html>

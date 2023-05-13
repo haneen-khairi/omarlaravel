@@ -4,7 +4,7 @@
             <div data-stagger-item>
                 <a target="_blank" href="{{ url('/') }}" class="item-logo">
                     <!-- Dr. Omar Yousef -->
-                    <img src="assets/img/homepage/logo1.png" class="logo-img" alt="" />
+                    <img src="{{ asset('assets/img/homepage/logo1.png') }}" class="logo-img" alt="" />
                 </a>
             </div>
             <nav class="item-nav">
@@ -58,7 +58,7 @@
                         <a class="d-b" href="{{ url('/blog') }}">Blogs</a>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25" data-stagger-item>
-                        <a class="d-b" target="_blank" href="{{ url('/contact-us') }}">Contact</a>
+                        <a class="d-b" href="{{ route('contact-us') }}">Contact</a>
                     </li>
                 </ul>
                 <div class="lang-container" data-stagger-item>
@@ -125,7 +125,7 @@
                     <a class="d-b" href="{{ url('/blog') }}">Blogs</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25" data-stagger-item>
-                    <a class="d-b" target="_blank" href="{{ url('/contact-us') }}">Contact</a>
+                    <a class="d-b" href="{{ route('contact-us') }}">Contact</a>
                 </li>
                 <li class="lang-container" data-stagger-item>
                     <div class="menu-lang">

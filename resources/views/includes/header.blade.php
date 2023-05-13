@@ -9,9 +9,9 @@
     <link rel="alternate" href="#" hreflang="AR" />
     <link rel="alternate" href="#" hreflang="en" />
     <link rel="alternate" href="#" hreflang="x-default" />
-    <link rel="shortcut icon" href="assets/img/fav.ico" type="image/x-icon" />
-    <link rel="preload" href="assets/css/app.css" as="style" />
-    {{-- <link rel="preload" href="assets/js/app.js" as="script" /> --}}
+    <link rel="shortcut icon" href="{{ asset('assets/img/fav.ico') }}" type="image/x-icon" />
+    <link rel="preload" href="{{ asset('assets/css/app.css') }}" as="style" />
+    {{-- <link rel="preload" href="{{ asset('assets/js/app.js') }}" as="script" /> --}}
     <meta name="description" content="Dr" />
     <link rel="canonical" href="#" />
     <meta property="og:locale" content="AR_AR" />
@@ -24,13 +24,13 @@
     <meta property="article:modified_time" content="2021-10-14T13:26:04+00:00" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <link rel="stylesheet" id="classic-theme-styles-css" href="assets/css/theme.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="assets/css/index.css" />
-    <link rel="stylesheet" id="app-css" href="assets/css/main.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="classic-theme-styles-css" href="{{ asset('assets/css/theme.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}" />
+    <link rel="stylesheet" id="app-css" href="{{ asset('assets/css/main.css') }}" type="text/css" media="all" />
     <link rel="alternate" type="application/json" href="#wp-json/wp/v2/pages/9" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="#xmlrpc.php?rsd" />
     <link rel="shortlink" href="#" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
     <style>
@@ -56,4 +56,3 @@
         <div class="layer-transition__title title-xxl tt-u">Dr. Omar Yousef</div>
     </div>
 
-     
